@@ -6,7 +6,6 @@
 }
 
 body {
-  text-align: center;
 }
 
 h1 {
@@ -14,23 +13,37 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
+
 h2 {
-  font-size: 24px;
+  font-size: 64px;
   font-family: var(--primary-font-family);
 }
+
 p {
   font-family: var(--secondary-font-family);
-  font-weight: bold;
-  font-size: 36px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
-
 .hero {
   background-color: var(--brand-colour);
   padding: 160px 20px;
+  text-align: center;
 }
+.hero h1 {
+  line-height: 1.5;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--primary-font-family);
+}
+
 .hero p {
   margin: 0px;
   color: #272142;
+  font-size: 36px;
+  font-weight: bold;
 }
 .hero a {
   padding: 15px 30px;
@@ -38,4 +51,18 @@ p {
   color: #ffff;
   font-size: 18px;
   font-family: var(--secondary-font-family);
+}
+
+.project-description {
+  margin: 120px 60px;
+}
+.project-button {
+  color: var(--accent-colour);
+  border: 1px solid var(--accent-colour);
+  padding: 10px 25px;
+  font-size: 18px;
+}
+.img-fluid {
+  height: auto;
+  max-width: 100%;
 }
