@@ -5,9 +5,6 @@
   --accent-colour: #6c63ff;
 }
 
-body {
-}
-
 h1 {
   font-family: var(--primary-font-family);
   font-weight: bold;
@@ -54,7 +51,7 @@ p {
 }
 
 .project-description {
-  margin: 120px 60px;
+  padding: 120px 60px;
 }
 .project-button {
   color: var(--accent-colour);
@@ -65,4 +62,20 @@ p {
 .img-fluid {
   height: auto;
   max-width: 100%;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 54px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  h2 {
+    font-size: 48px;
+  }
 }
