@@ -49,6 +49,27 @@ p {
   font-size: 18px;
   font-family: var(--secondary-font-family);
 }
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  padding: 15px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#about-button {
+  color: var(--accent-colour);
+  background: var(--brand-colour);
+  border: 1px solid var(--accent-colour);
+}
+#about-button:hover {
+  background: var(--accent-colour);
+  color: var(--brand-colour);
+  transition: all 0.15s ease-in-out;
+}
 
 .project-description {
   padding: 120px 60px;
