@@ -50,8 +50,25 @@ p {
   font-family: var(--secondary-font-family);
 }
 
-.about-hero {
+.content {
   padding: 120px 60px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.content p {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
 }
 
 .about-section-content h1 {
@@ -167,15 +184,15 @@ p {
   .about-section-content {
     text-align: center;
   }
-  .about-hero {
+  .content {
     padding: 0px;
     text-align: center;
   }
-  .about-hero h1 {
+  .content h1 {
     font-size: 54px;
     line-height: 1.5;
   }
-  .about-hero h2 {
+  .content h2 {
     font-size: 18px;
     line-height: 1;
   }
