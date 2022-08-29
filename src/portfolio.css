@@ -50,6 +50,10 @@ p {
   font-family: var(--secondary-font-family);
 }
 
+.content-container {
+  padding: 20px 20px;
+}
+
 .content {
   padding: 120px 60px;
 }
