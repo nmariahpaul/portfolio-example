@@ -16,6 +16,11 @@ h2 {
   font-family: var(--primary-font-family);
 }
 
+h4 {
+  font-size: 48px;
+  font-family: var(--primary-font-family);
+}
+
 p {
   font-family: var(--secondary-font-family);
   font-size: 16px;
@@ -204,6 +209,44 @@ nav a:hover {
   display: block;
   text-align: center;
 }
+
+footer .contact-box {
+  background: var(--brand-colour);
+  padding: 30px 120px;
+}
+
+footer .email-link {
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--accent-colour);
+  text-decoration: none;
+}
+
+.contact-box a {
+  padding: 15px 30px;
+  background-color: var(--accent-colour);
+  color: #ffff;
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 22px;
+  color: var(--accent-colour);
+  background: var(--brand-colour);
+  border-radius: 50%;
+  transition: all 120ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--accent-colour);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
