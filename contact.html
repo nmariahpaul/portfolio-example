@@ -39,19 +39,45 @@
     <title>Contact me - Mariah Paul</title>
   </head>
   <body>
-    <div class="content-container container">
-      <nav class="personal-nav d-flex justify-content-between">
-        <a href="index.html">
-          <img src="images/logo.jpg" class="logo" alt="personal logo icon" />
-        </a>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="work.html">My work</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          ><img
+            src="images/logo.jpg"
+            class="img-fluid logo"
+            alt="personal logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="index.html"
+              title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html#about-section" title="About Me"
+              >About Me</a
+            >
+            <a class="nav-link" href="work.html" title="My Work">My Work</a>
+            <a class="nav-link active" href="contact.html" title="Contact Me"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <div class="content-container container">
       <div class="content">
