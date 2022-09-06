@@ -247,6 +247,11 @@ footer .social-links a:hover {
   background: var(--accent-colour);
 }
 
+footer #github-repo-link {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
